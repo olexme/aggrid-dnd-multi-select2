@@ -1,0 +1,5 @@
+<skyhook-preview [allBackends]="true">
+    <ng-template let-type let-data="item">
+        <ng-template [ngTemplateOutlet]="_dndTemplateRef" [ngTemplateOutletContext]="_getTemplateOutletContext(type, data)"></ng-template>
+    </ng-template>
+</skyhook-preview>

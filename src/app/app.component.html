@@ -1,0 +1,11 @@
+<ra-ui-dnd-preview></ra-ui-dnd-preview>
+<grid>
+  <ng-template #dndGridPrev let-type="group" let-items="data">
+      <table class="prev-table">
+        <tr *ngFor="let row of items">
+          <td *ngFor="let itm of row | keyvalue">{{itm.value}}</td>
+        </tr>
+      </table>
+  </ng-template>
+</grid>
+<drop><drop>

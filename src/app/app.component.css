@@ -1,0 +1,19 @@
+p {
+  font-family: Lato;
+}
+
+:host {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 0px 200px 1fr;
+  height: 100%;
+  width: 100%;
+}
+
+.prev-table {
+  max-width: 300px;
+  max-height: 200px;
+  overflow: true;
+  background-color: rgb(0, 217, 255);
+  opacity: 0.7;
+}
